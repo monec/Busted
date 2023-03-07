@@ -1,0 +1,207 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: auto;
+}
+
+.header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    height: 29px;
+}
+.header__text {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 7px 580px 7px 569px;
+}
+.nav-bar__offer {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    height: 66.36px;
+}
+.nav-bar__logo {
+    width:auto;
+    justify-content: flex-start;
+    height: 36px;
+    padding: 15px 11.5px 15.36px 11px;
+    
+
+}
+.nav-bar__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    width: 805.25px;
+    height: 66.36px;
+    margin-left: 40px;
+}
+.nav-bar__menu-text {
+    text-decoration: none;
+    color: #000000;
+    padding:22px 22px 23px ;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+#nav-bar__menu-text {
+    padding-left: 12px;
+}
+.nav-bar__account-trash {
+    display: flex;
+    justify-content: end;
+    align-items: center;   
+    margin-left: auto;
+    margin-right: 20px ;
+}
+.account {
+    padding-right: 10.54px;
+}
+.background-img {
+    width: 1519px;
+}
+.welcome-info__wrap {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 1519px;
+    margin-top: 45px;
+}
+.welcom-info {
+    width: 635px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.welcome-info__header {
+    font-size: 44px;
+    line-height: 50.63px;
+    margin: 8px 62px 14px 62px;
+}
+.welcome-info__paragraph {
+    font-size: 15px;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    margin: 0px 49px 22px 49px;
+}
+.welcome-info__button {
+    display: flex
+    
+}
+.welcome-info__button-revs {
+    justify-content: center;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-decoration: none ;
+    color: #fff;
+    background-color: #FF4A32;
+    border-radius: 35px;
+    padding: 8px 47px;
+    margin: 22px 12px 13px 111px;
+    width: 107px;
+}
+.welcome-info__button-boards {
+    justify-content: center;
+    font-size: 14px;
+    line-height: 22.5px;
+    text-decoration: none ;
+    color: #fff;
+    background-color: #FF4A32;
+    border-radius: 35px;
+    padding: 8px 37px;
+    margin: 22px 110px 13px 0px;
+    width: 127px;
+}
+.partners {
+    background: #000000;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners-wrap {
+    
+    width: 1056px;
+    height: 48px;
+}
+.partners-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.purchase-wrap {
+    justify-content: center;
+    display: flex;
+    width: 700px;
+    height: 183px;
+    margin: 30px auto 20px auto;
+}
+.purchase-text__look {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding: 21.64px 18px 17px 19px;
+}
+.purchase-text__info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 0px 8px 51.61px 7px;
+}
+.purchase-text__line {
+    background: #CFCFCF;
+    width: 70px;
+    height: 2px; 
+    position: absolute;
+    margin: 151.11px 315px 24.5px 315px;
+}
+.shop-wrap {
+    width: 1200px;
+    height: 580px;
+    display: flex;
+    margin: 0px auto;
+}
+.shop-widgets {
+    display: flex;
+}
+.shop-widgets__boards-revs {
+    margin: 20px
+}
+.shop-widgets__boards-revs__info {
+    position: absolute;
+}
+.shop-widgets__boards-revs__lightning {
+    margin: 224.5px 275.5px 11.5px 275.5px;
+}
+.shop-widgets__boards-revs__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 169px 14px 170px;
+}
+.shop-widgets__boards-revs__paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0px 256px 229px 256px
+}
